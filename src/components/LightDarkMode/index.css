@@ -1,0 +1,41 @@
+/* Write your CSS here */
+
+.bg-container {
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  height: 250px;
+  width: 450px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.lightMode {
+  color: black;
+  background-color: white;
+  border: 3px solid black;
+}
+
+.darkMode {
+  color: white;
+  background-color: black;
+}
+.heading {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.btn {
+  height: 40px;
+  width: 90px;
+  border-radius: 9px;
+  font-weight: bold;
+}
